@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "env/bin/python3",
+    "git.ignoreLimitWarning": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint-flask"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+}
