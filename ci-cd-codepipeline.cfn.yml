@@ -6,7 +6,7 @@ Description: EKSWSV1
 
 Parameters:
 
-  EksClusterName:
+  EksClusterName: simple-jwt-api
     Type: String
     Description: The name of the EKS cluster created
     Default: 
@@ -14,7 +14,7 @@ Parameters:
     MaxLength: 100
     ConstraintDescription: You must enter the EKS cluster name
 
-  GitSourceRepo:
+  GitSourceRepo: 
     Type: String
     Description: GitHub source repository - must contain a Dockerfile and buildspec.yml in the base
     Default: 
